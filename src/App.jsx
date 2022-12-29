@@ -1,8 +1,6 @@
 import { useState } from "react";
 
 function App() {
-  const [error, setError] = useState(true);
-
   const [inputs, setInputs] = useState({
     fullname: "",
     email: "",
@@ -16,7 +14,7 @@ function App() {
   };
 
   const handleSubmit = () => {
-    console.log(inputs);
+    console.log('form sent...');
   };
 
   const calculateFormProgress = () => {
