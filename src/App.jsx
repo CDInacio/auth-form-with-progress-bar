@@ -53,7 +53,7 @@ function App() {
 
   return (
     <div className="bg-gray-200	 w-screen h-screen flex justify-center items-center">
-      <div className="w-[40%] bg-white px-[40px] py-[40px] rounded drop-shadow-md">
+      <div className="w-[30%] bg-white px-[40px] py-[40px] rounded drop-shadow-md">
         <div className="w-full h-[10px] border-[1px] rounded mb-7">
           <div
             style={{
