@@ -29,9 +29,9 @@ function App() {
     }
 
     if (inputs.email) {
-      let ragEx =
+      let regEx =
         /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-      if (ragEx.test(inputs.email)) {
+      if (regEx.test(inputs.email)) {
         progress += 25;
       }
     }
